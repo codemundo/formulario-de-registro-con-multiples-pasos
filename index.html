@@ -24,9 +24,9 @@
                         <h2 class="step__title">Información de cuenta<small>(Paso 1)</small></h2>
                     </div>
                     <div class="step__body">
-                        <input type="email" placeholder="Correo" class="step__input">
-                        <input type="password" placeholder="Contraseña" class="step__input">
-                        <input type="password" placeholder="Confirmar contraseña" class="step__input">
+                        <input type="email" name="email" id="email" placeholder="Correo" class="step__input">
+                        <input type="password" name="password" id="password" placeholder="Contraseña" class="step__input">
+                        <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Confirmar contraseña" class="step__input">
                     </div>
                     <div class="step__footer">
                         <button type="button" class="step__button step__button--next" data-to_step="2" data-step="1">Siguiente</button>
@@ -37,8 +37,8 @@
                         <h2 class="step__title">Información de personal<small>(Paso 2)</small></h2>
                     </div>
                     <div class="step__body">
-                        <input type="text" placeholder="Nombre" class="step__input">
-                        <input type="text" placeholder="Apellido" class="step__input">
+                        <input type="text" name="first_name" id="first_name" placeholder="Nombre" class="step__input">
+                        <input type="text" name="last_name" id="last_name" placeholder="Apellido" class="step__input">
                         <input type="tel" placeholder="Teléfono" class="step__input">
                         <textarea rows="4" cols="80" placeholder="Dirección" class="step__input"></textarea>
                     </div>
